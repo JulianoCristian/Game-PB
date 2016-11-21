@@ -1,0 +1,31 @@
+<style>
+.branding-below {
+  bottom: 56px;
+  top: 0;
+}
+</style>
+
+<div class="sidebar branding-below">
+  <div class="block form-group">
+    <label for="translated-text">
+      <b>Translation</b></label>
+    <textarea id="translated-text" rows="15">
+    </textarea>
+  </div>
+
+  <div class="block">
+    <input type="checkbox" id="save-prefs">
+    <label for="save-prefs">
+      Use these languages by default</label>
+  </div>
+
+ <div class="block">
+    <button class="blue">Translate</button>
+    <button>Insert</button>
+  </div>
+</div>
+
+<div class="sidebar bottom">
+  <span class="gray">
+    Translate sample by Google</span>
+</div>
